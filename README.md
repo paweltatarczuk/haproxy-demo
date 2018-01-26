@@ -17,4 +17,4 @@ What is included:
 Run `$ docker-compose up` and visit http://localhost.
 
 You can investigate how HAProxy is handling health checks by disabling
-services with `$ docker-compose <php1|php2|web1|web2>` command.
+services with `$ docker-compose stop <php1|php2|web1|web2>` command.
